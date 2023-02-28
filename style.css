@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(220, 202, 125);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container img{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 15px;
+}
+
+button{
+padding: 7px 25px;
+cursor: pointer;
+background-color: rgb(166, 230, 38);
+border: none;
+}
+
+button:hover{
+    background-color: yellow;
+
+}
